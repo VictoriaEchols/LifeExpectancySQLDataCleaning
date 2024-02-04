@@ -1,9 +1,13 @@
 # How Can Systematic Data Cleaning Uncover Trends in Global Life Expectancy?
 
+![Life-Expectancy](https://github.com/VictoriaEchols/LifeExpectancySQLDataCleaning/assets/157342613/c1857eb6-4a26-409a-ae48-c7ae7f8348ea)
+
+
 **Background:**
 
 
 In this project, I delve into the fascinating yet complex World Life Expectancy dataset, which catalogues various health indicators across different countries and years. My primary motivation was to clean and refine this dataset to unlock its full potential for analysis. The data is rich with insights into how life expectancy is influenced by myriad factors, offering a lens through which we can examine global health trends. Through meticulous data cleaning, I aimed to address inconsistencies and prepare the dataset for deeper analytical exploration, making it a more reliable resource for public health research and policy analysis.
+
 
 **Questions:**
 
@@ -18,7 +22,7 @@ What are the key insights and trends that can be observed in the cleaned dataset
 
 Throughout the data cleaning process, I uncovered and addressed a number of critical findings:
 
-**Data Duplication: **
+**Data Duplication:**
 
 I found a substantial amount of duplicate records, underscoring the necessity of thorough data cleaning to ensure the integrity of any subsequent analysis.
 
