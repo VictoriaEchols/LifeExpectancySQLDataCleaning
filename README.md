@@ -1,61 +1,33 @@
-# How Can Systematic Data Cleaning Uncover Trends in Global Life Expectancy?
+# How Do Data Cleaning and Exploratory Analysis Illuminate Shifts in Global Life Expectancy?
 
 ![Life-Expectancy](https://github.com/VictoriaEchols/LifeExpectancySQLDataCleaning/assets/157342613/c1857eb6-4a26-409a-ae48-c7ae7f8348ea)
 
+## Background
 
-**Background:**
+In a series of projects, I embarked on a journey to deeply understand the nuances behind the numbers that narrate the story of global health—specifically, life expectancy. This endeavor was twofold: initially, to meticulously clean the World Life Expectancy dataset, addressing and rectifying inconsistencies to pave the way for accurate analysis. Subsequently, I shifted my focus to exploratory analysis, aiming to uncover the trends and shifts in life expectancy across different nations over time. Through SQL queries and data manipulation, I sought to reveal the underlying patterns that might explain how and why life expectancy changes in different contexts.
 
+## Questions
 
-In this project, I delve into the fascinating yet complex World Life Expectancy dataset, which catalogues various health indicators across different countries and years. My primary motivation was to clean and refine this dataset to unlock its full potential for analysis. The data is rich with insights into how life expectancy is influenced by myriad factors, offering a lens through which we can examine global health trends. Through meticulous data cleaning, I aimed to address inconsistencies and prepare the dataset for deeper analytical exploration, making it a more reliable resource for public health research and policy analysis.
+My exploration was guided by a set of questions, each aimed at uncovering layers of insight hidden within the data:
+- After ensuring data integrity, what can the clean dataset reveal about global life expectancy trends?
+- Which countries have experienced the most significant changes in life expectancy, and what might these changes indicate about global health progress and challenges?
+- How do the findings contribute to our understanding of public health, policy effectiveness, and global disparities?
 
+## Main Findings
 
-**Questions:**
+The journey through data cleaning to exploratory analysis led to several key findings:
+- **Data Quality**: The initial phase of data cleaning was crucial, revealing substantial duplications and inconsistencies that, once addressed, significantly enhanced the dataset's reliability for analysis.
+- **Significant Shifts**: The exploratory analysis highlighted remarkable changes in life expectancy, with some countries showing dramatic improvements, underscoring the potential impact of health policies, economic development, and social factors.
+- **Disparities and Progress**: The analysis brought to light not only the successes but also the ongoing disparities in health outcomes, reflecting a complex interplay of global health dynamics.
 
-Driven by curiosity and a commitment to contributing valuable insights to the field of public health, I set out to answer several pressing questions:
+## Conclusions
 
-How does life expectancy vary across different countries and over various time periods?
-What specific data inconsistencies are present in the World Life Expectancy dataset, and how can I systematically identify and rectify them?
-What are the key insights and trends that can be observed in the cleaned dataset regarding global health outcomes and disparities?
+This comprehensive exploration of the World Life Expectancy dataset has underscored the importance of data integrity and the power of data analysis in uncovering critical insights into global health trends. By identifying both the strides made and challenges remaining, this project contributes valuable perspectives to the conversation on public health and policy formulation. The cleaned and analyzed dataset serves as a foundational resource for further research, offering a clearer picture of where efforts may be best directed to improve life expectancy worldwide.
 
+## Process
 
-**Main Findings:**
-
-Throughout the data cleaning process, I uncovered and addressed a number of critical findings:
-
-**Data Duplication:**
-
-I found a substantial amount of duplicate records, underscoring the necessity of thorough data cleaning to ensure the integrity of any subsequent analysis.
-
-**Cleaning Methodology:** 
-
-I developed and applied a systematic approach to data cleaning, which included the removal of duplicates and the correction of inconsistencies, vastly improving the dataset’s accuracy and reliability.
-
-**Emerging Insights:** 
-
-After cleaning, the dataset revealed fascinating trends, such as noticeable improvements in life expectancy in many countries, while also highlighting stark health disparities across different regions.
-
-**Conclusions:**
-
-
-This project has been a profound journey into the heart of data quality and its paramount importance in analytical research. The meticulous process of cleaning the World Life Expectancy dataset not only enhanced its value for future studies but also shed light on significant health trends and inequities worldwide. With a cleaner, more reliable dataset, I’m excited about the prospects of diving deeper into the analysis to unearth insights that could inform public health strategies and policies.
-
-**Process:**
-
-
-The journey to a cleaner dataset involved several deliberate and detailed steps:
-
-**Initial Exploration:** 
-
-I began by thoroughly examining the dataset to grasp its structure, content, and potential issues, setting the stage for effective cleaning.
-
-**Duplicate Identification:** 
-
-Using tailored SQL queries, I identified duplicate entries by examining combinations of country and year, revealing areas of concern that required attention.
-
-**Data Cleaning Actions:** 
-
-With precision, I executed SQL commands to eliminate duplicates and rectify identified inconsistencies, ensuring the dataset accurately represented the unique data points intended.
-
-**Verification and Validation:** 
-
-After the cleaning process, I meticulously reviewed the dataset to verify the success of my cleaning efforts, ensuring the integrity of the data was maintained and ready for analysis.
+The process encompassed several detailed steps:
+1. **Data Cleaning**: Starting with an in-depth examination and cleaning of the dataset to ensure data accuracy and usability for analysis.
+2. **Exploratory Analysis**: Employing SQL queries to investigate changes in life expectancy, identifying countries with significant improvements or declines, and analyzing the factors influencing these trends.
+3. **Insight Synthesis**: Drawing connections between the data findings and broader global health narratives, providing a grounded understanding of the dynamics at play.
+4. **Verification and Reflection**: Continually verifying the findings and reflecting on the implications for global health policies and interventions.
