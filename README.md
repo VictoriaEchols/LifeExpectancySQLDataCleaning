@@ -26,11 +26,10 @@ This comprehensive exploration of the World Life Expectancy dataset has undersco
 
 ## Process
 
-![Screenshot 2024-02-15 223748](https://github.com/VictoriaEchols/LifeExpectancySQLDataCleaning/assets/157342613/8a837762-7081-447a-bad6-ecb16fccb640)
-
-
 The process encompassed several detailed steps:
 1. **Data Cleaning**: Starting with an in-depth examination and cleaning of the dataset to ensure data accuracy and usability for analysis.
 2. **Exploratory Analysis**: Employing SQL queries to investigate changes in life expectancy, identifying countries with significant improvements or declines, and analyzing the factors influencing these trends.
+   ![Screenshot 2024-02-15 223748](https://github.com/VictoriaEchols/LifeExpectancySQLDataCleaning/assets/157342613/8a837762-7081-447a-bad6-ecb16fccb640)
+
 3. **Insight Synthesis**: Drawing connections between the data findings and broader global health narratives, providing a grounded understanding of the dynamics at play.
 4. **Verification and Reflection**: Continually verifying the findings and reflecting on the implications for global health policies and interventions.
